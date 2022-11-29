@@ -51,6 +51,7 @@ function App() {
     }))}
     <div className="container">
       <button onClick={() => setTour([])} className="btn">Удалить все</button>
+      <button onClick={() => window.location.reload(false)} className="btn">Обновить список</button>
     </div>
 </div>
   );
